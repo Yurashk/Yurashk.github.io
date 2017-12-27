@@ -1,0 +1,25 @@
+.menu-item{
+	border:2px solid silver;
+	display:inline-block;
+	position:relative;
+	width:300px;
+	cursor:pointer;
+	border-radius:20px;
+	margin-left:7%;
+	
+}
+.menu-item .submenu{
+	height:30px;
+	width:300px;
+	border-radius:20px;
+	margin:1%;
+	padding:5%;
+	background: #00FFFF;
+	position:absolute;
+	cursor:pointer;
+}
+.nav{
+	border:2px solid silver;
+	width:300px;
+	background-color:red;
+}

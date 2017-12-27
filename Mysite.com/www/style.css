@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+}
+ul.topnav{
+	list-style-type: none;
+	
+	margin: 0;
+	
+	padding: 0;
+	overflow: hidden;
+	background-color:  #000000;
+	
+}
+ul.topnav li{
+	margin-right:15%;
+	float:right;		
+}
+
+#wrapper{
+	float:left;
+	width:100%;
+	
+
+
+}
+#wrapper #articless{
+	float:left;
+	width:100%;
+	background-color:#000000;
+	
+	
+	
+	
+}
+
+.prev {
+	cursor:pinter;
+}
+.next{
+	cursor:pinter;
+}
+ #leftbl{
+ /* Цвет фона */
+     box-shadow: 0 0 10px #F5F5F5;
+	 
+	 padding: 3px;
+	float:left;
+	width:23%;
+	height:77%;
+	margin-left:1%;	
+		margin-Bottom:1%;
+margin-Top:1%;		
+	 border-radius:6% 0 0 6%;
+	box-sizing:border-box;
+	/*min-height:400px;*/
+	font-size:1em;
+	
+}
+#rightbl{
+	 box-shadow: 0 10px 10px #F5F5F5;
+     box-shadow: 0 0 10px #F5F5F5;
+	  border-radius:0 6% 6% 0;
+	 padding: 3px;
+	float:left;
+	width:23%;
+	margin-right:1%;
+	margin-Bottom:1%;
+	margin-Top:1%;
+	height:77%;
+
+	box-sizing:border-box;
+	/*min-height:400px;*/
+	font-size:1em;
+	
+}
+#kartinkir{
+	 
+	 border-radius:0 6% 6% 0;
+	
+	 padding-bottom:1%;
+}
+#kartinkil{
+	border-radius:6% 0 0 6%;
+   
+	 padding-bottom:1%;
+}
+#senterbl{
+	 
+     box-shadow: 0 10px 10px #F5F5F5;
+	 padding: 3px;
+	float:left;
+	width:51%;
+	margin-Top:1%;
+	box-shadow: 0 0 10px #F5F5F5;
+	height:77%;
+	margin-Bottom:1%;
+	box-sizing:border-box;
+	/*min-height:400px;*/
+	font-size:1em;
+	
+}
+footer{
+	
+	overflow: hidden;
+	color:#FFEFD5;
+	width:100%;
+	border-top: 1% solid #F0F8FF;	
+	
+	height:10%;
+	list-style-type: none;
+	margin-bottom:0;
+	float:right;
+	padding-bottom:1px;
+	background-color:#000000;
+}
+ul.topnav li a{
+	display: inline-block;
+	color: #FFFFF0;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	
+	font-size:1em;
+	
+	font-family:Arial,sans-serif;
+}
+ul.topnav li a:hover{
+	
+	background-color:  #FA8072;
+	
+	border-radius:27%;
+	
+}
+ul.topnav li.icon{
+	display: none;
+}
+@media screen and (max-width: 680px){
+	ul.topnav li:not(:first-child){display: none;}
+	ul.topnav li.icon{
+		float: right;
+		display: inline-block;
+	}	
+}
+@media screen and (max-width: 680px){
+	ul.topnav.responsive{
+		position: relative;
+	}
+	ul.topnav.responsive li.icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.topnav.responsive li{
+		float: none;
+		display: inline; 
+	}
+	ul.topnav.responsive li a{
+		display: block; 
+		text-align: block;		
+	}
+}
+
+
+
+
+
+

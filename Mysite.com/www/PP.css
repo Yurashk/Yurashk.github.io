@@ -1,0 +1,337 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+}
+.next{
+	cursor: pointer;
+	color:blue;
+	font-weight:bold;
+	transition:0.6s ease;
+	height:200;
+	font-size:10px;
+	border-radius:20px;
+}
+.mySlides fade{border-radius:20px;}
+a{
+	color:	#F5F5DC;
+	text-decoration:none;
+	transition:all,6s easy;
+	-moz-transition:all,6s easy;
+	-webkit-transition:all,6s easy;
+	cursor:pointer;
+	
+}
+a:hover{
+	color:	#00FFFF;
+	text-decoration:none;
+	transition:all,6s easy;
+	-moz-transition:all,6s easy;
+	-webkit-transition:all,6s easy;
+	
+	
+}
+a:active{
+	
+	color:green;
+}
+
+/*   Selection Block*/
+img{
+	max-width:100%;
+	height:auto;
+	width:auto\9;
+}
+::selection{background:red;color:#fff;}
+::-moz-selection{background:red;color:#fff;}
+
+header,footer{
+	
+	width:98%;
+	background-color:white;
+	float:left;
+	
+	
+}
+html{
+	
+	height:100%;
+}
+body{
+	width:100%;
+	height:100%;
+	color:black;
+	background:#f7f7f7;
+	font-size:1em;
+	font-family: "Segoe UI" , sans-serif;
+	line-height:135%;
+}
+header{
+	padding:1%;
+	border-bottom: 2px solid silver;
+	background-color:#1E90FF;	
+}
+
+#logo{
+	font-size:2em;
+	color:	#0000CD;
+	font-family:Comic Sans MS,sans-serif;
+	
+}
+hr{
+	display:block;
+	border:0px;
+	height:1px;
+	border-top:1px solid silver;
+	padding:0;
+	
+}
+.right{float:right;}
+.left {float:left ;}
+.clear{float:both;}
+/*о нассс*/
+.contact{
+	
+	font-size:1.5em;
+	font-family:Comic Sans MS,sans-serif;
+	margin-left:10px;
+}
+#menu{
+	color:blue;
+	font-family:Comic Sans MS,sans-serif;
+	font-size:1.7em;
+	max-width:100%;
+	min-width:20%;
+	
+}
+#menu hr{
+	width:75%;
+	color:red;
+	max-width:100%;/*размер меняется с размером экрана*/
+	margin-top:5px;
+	margin-bottom:10px;
+	
+}
+/*стили для ссылок моей менюшки*/
+#menuHrefs a{
+	padding:1% 5%;
+	border-radius:5px;
+	margin-right:5px;
+	color:blue;
+	cursor:pointer;
+	font-family:Comic Sans MS,sans-serif;
+		
+}
+#menuHrefs a:hover{
+	background-color:white;
+}
+/*основные стили для сайта*/
+
+#wrapper{
+	float:left;
+	width:100%;
+	margin-top:9%;
+}
+#wrapper #articless{
+	float:left;
+	width:80%;
+	margin-left:10%;
+	
+	
+}
+#wrapper #articless article{
+	float:left;
+	width:20%;
+	border:1px solid silver;
+	box-sizing:border-box;
+	border-radius:20% 20% 9% 9%;
+	background-color:#fafafa;
+	margin-right:2%;
+	margin-left:9%;
+	
+	/*min-height:400px;*/
+	font-size:1em;
+	
+}
+/*стили для фоточек*/
+#wrapper #articless article img{
+	width:100%;/*размер articl*/
+	height:30%;
+	border-radius:20% 20px 20% 20px;
+	border-bottom: 2px solid silver;
+	margin-bottom:5%;
+	max-width:100%;
+
+}
+/*стили для заголовков*/
+#wrapper #articless article h2{
+	width:90%;
+	margin-left:5%;
+	font-weight:normal;
+	font-size:1.7em;
+	color:#5a5a5a;
+	max-width:100%;
+}
+/*стили для описания анонсов*/
+#wrapper #articless article p{
+	width:80%;
+	margin-left:10%;
+	font-family:Comic Sans MS,sans-serif;
+	max-width:100%;
+}
+#wrapper #articless article a{
+	padding:2px;
+	background-color:#7feb6d;
+	margin-left:5%;
+	float:left;
+	margin-top:5%;
+	border-radius:15px;
+	color:#fff;
+	cursor:pointer;
+	margin-bottom:10px;
+	max-width:100%;
+}
+#wrapper #articless article a:hover{background-color:#00BFFF;}
+#morn{font-size:1.7em;}
+/*стили для странички о нас*/
+#about_us{
+	width:60%;
+	float:left;
+	background-color:#B0E0E6;
+	border-radius:15px;
+	border:1px solid silver;
+	box-sizing:border-box;
+	padding:1%;
+	font-family:Comic Sans MS,sans-serif;
+	font-size:1em;
+	
+}
+#about_us p{
+	
+}
+#columnRight{
+	width:30%;
+	float:left;
+	margin-left:5%;
+	background-color:#B0E0E6;
+	border-radius:15px;
+	border:1px solid silver;
+	box-sizing:border-box;
+	padding:1%;
+	font-family:Comic Sans MS,sans-serif;
+	font-size:1em;
+}
+
+/*стили для формы*/
+form{
+	width:60%;
+	margin-left:20%;
+	float:left;
+}
+form label{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+form textarea{
+	width:60%;
+	float:left;
+	clear:both;
+	background-color:#ffffff;
+	border:2px solid silver;
+	border-radius:9px;
+	padding:10px;
+	font-size:1.3 em;
+	
+}
+form #send{
+	float :left;
+	padding:10px;
+	background-color:#7FFFD4;
+	margin-top:5%;
+	font-size:2em;
+	float:left;
+	color:white;
+	cursor:pointer;
+	
+}
+form #send:hover{
+	background-color:#f5bdbd;
+	
+}
+form input{
+	border-radius:9px;
+	border:1px solid blue;
+	float:left;
+	clear:both;
+	padding:5px;
+
+	margin-bottom:5%;
+	width:40%;
+}
+/*центральный блок сайта*/
+
+#main_soc_block{
+	width:97%;
+	padding:2% 0;
+	border-bottom:2px solid silver;
+	border-top:2px solid silver;
+	margin:20px 0 10px 10px;
+	border-radius:20px;
+	float:left;
+	background: url('img/фильмы.jpg')repeat-x center;
+	height:50%;
+}
+#main_soc_block_in{
+	text-align:center;
+	padding:1%;
+	height:100px;
+	background-color:#fafafa;
+	border:1px solid silver;
+	border-radius:30px;
+	width:500px;
+	background-color:silver;
+	
+	
+}
+#main_soc_block_in a{
+	
+}
+#bt_registration{
+	background-color:#F5F5F5;
+	border-radius:9px;
+}
+/*стили для футера*/
+/*поисковая строка*/
+.field{
+	border-radius:10px;
+	border:2px solid green;
+	padding:5px;
+	margin-left:20px;
+}
+.field:focus{
+	
+	border:2px solid #f48b8b;
+}	
+
+footer{
+	padding:1%;
+	border-top: 2px solid silver;	
+	margin-top:1px;
+	padding-bottom:2%;
+	background-color:#1E90FF;
+}
+/*прикрипление футтера к низу сайта*/
+#page-wrap:after{
+	content:"";
+	display:block;	
+}
+footer,#page-wrap:after{
+	height:5%;
+}
+#page-wrap{
+	min-height:93%;
+	margin-bottom:-5%;
+}
+/*завершение прикрепления*/
